@@ -9,8 +9,8 @@
 </pre><pre id="code0" class="unselectable codeClass">	} Time;
 
 </pre><pre id="codeF1b" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('F1b')">F1b	int getTotalSeconds() {
-</pre><pre id="code0" class="unselectable codeClass">		int totalSeconds = 0;
 </pre><pre id="code0" class="unselectable codeClass">		printf( "초를 입력하세요: " );
+</pre><pre id="code0" class="unselectable codeClass">		int totalSeconds = 0;
 </pre><pre id="code0" class="unselectable codeClass">		scanf( "%d", &totalSeconds );
 </pre><pre id="codeF1e" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('F1e')">F1e		return totalSeconds;
 </pre><pre id="code0" class="unselectable codeClass">	}
@@ -24,14 +24,11 @@
 </pre><pre id="code0" class="unselectable codeClass">	}
 
 </pre><pre id="code1" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('1')">1	int main() {
-</pre><pre id="code0" class="unselectable codeClass">		int totalSeconds = 0;
-</pre><pre id="code0" class="unselectable codeClass">		Time time = { 0, 0, 0 };
+</pre><pre id="code2" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('2')">2		int totalSeconds =
+</pre><pre id="code3" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('3')">3		                   getTotalSeconds();
 
-</pre><pre id="code2" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('2')">2		totalSeconds =
-</pre><pre id="code3" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('3')">3		               getTotalSeconds();
-
-</pre><pre id="code4" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('4')">4		time =
-</pre><pre id="code5" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('5')">5		       calculateTime( totalSeconds );
+</pre><pre id="code4" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('4')">4		Time time =
+</pre><pre id="code5" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('5')">5		            calculateTime( totalSeconds );
 
 </pre><pre id="code6" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('6')">6		printf( "%d초는 %d시간 %d분 %d초입니다", totalSeconds, time.hours, time.minutes, time.seconds );
 

@@ -3,14 +3,13 @@
 </pre><br>  	 				<h4>프로그램 코드</h4> 				<pre></pre><pre id="code0" class="unselectable codeClass">	#include &lt;stdio.h&gt;
 
 </pre><pre id="code1" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('1')">1	int main() {
-</pre><pre id="code0" class="unselectable codeClass">		int totalSeconds = 0, hours = 0, minutes = 0, seconds = 0;
-
 </pre><pre id="code0" class="unselectable codeClass">		printf( "초를 입력하세요: " );
+</pre><pre id="code0" class="unselectable codeClass">		int totalSeconds = 0;
 </pre><pre id="code2" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('2')">2		scanf( "%d", &totalSeconds );
 
-</pre><pre id="code3" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('3')">3		hours  = totalSeconds / ( 60 * 60 );
-</pre><pre id="code4" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('4')">4		minutes = ( totalSeconds % ( 60 * 60 ) ) / 60;
-</pre><pre id="code5" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('5')">5		seconds = totalSeconds % 60;
+</pre><pre id="code3" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('3')">3		int hours  = totalSeconds / ( 60 * 60 );
+</pre><pre id="code4" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('4')">4		int minutes = ( totalSeconds % ( 60 * 60 ) ) / 60;
+</pre><pre id="code5" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('5')">5		int seconds = totalSeconds % 60;
 
 </pre><pre id="code6" class="unselectable codeClass" onmouseover="sP3f8(this.id, true) " onmouseout="sP3f8(this.id, false)" onclick="sP3f7('6')">6		printf( "%d초는 %d시간 %d분 %d초입니다.", totalSeconds, hours, minutes, seconds );
 

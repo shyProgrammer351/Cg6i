@@ -10,23 +10,22 @@
 </pre><pre id="code0" class="unselectable codeClass">	<font color="green">//<b> 프로그램 시작 </b></font>
 </pre>
 <pre id="code1" class="unselectable codeClass">1	<a href='../Cf3i/Cf3i0.html' target='keyword'>int</a> main() {
-</pre><pre id="code0" class="unselectable codeClass">		<a href='../Cf3i/Cf3i0.html' target='keyword'>int</a> totalSeconds <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> 0, hours <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> 0, minutes <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> 0, seconds <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> 0;
-</pre><pre id="code0" class="unselectable codeClass">	 
 </pre><pre id="code0" class="unselectable codeClass">		<font color="green">//<b> 전체 초를 입력받기 </b></font>
 </pre><pre id="code0" class="unselectable codeClass">		printf( "초를 입력하세요: " );
+</pre><pre id="code0" class="unselectable codeClass">		<a href='../Cf3i/Cf3i0.html' target='keyword'>int</a> totalSeconds <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> 0;
 </pre>
 <pre id="code2" class="unselectable codeClass">2		scanf( "%d", <a href='../Cg3i/Cg3i0.html' target='keyword'>&</a>totalSeconds );
 </pre><pre id="code0" class="unselectable codeClass">	 
 </pre><pre id="code0" class="unselectable codeClass">		<font color="green">//<b> 시, 분, 초를 계산 </b></font>
 </pre><pre id="code0" class="unselectable codeClass">		<font color="green">//<b> 시를 계산 </b></font>
 </pre>
-<pre id="code3" class="unselectable codeClass">3		hours  <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> totalSeconds <a href='../Cf4i/Cf4i0.html' target='keyword'>/</a> ( 60 * 60 );
+<pre id="code3" class="unselectable codeClass">3		<a href='../Cf3i/Cf3i0.html' target='keyword'>int</a> hours  <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> totalSeconds <a href='../Cf4i/Cf4i0.html' target='keyword'>/</a> ( 60 * 60 );
 </pre><pre id="code0" class="unselectable codeClass">		<font color="green">//<b> 분을 계산 </b></font>
 </pre>
-<pre id="code4" class="unselectable codeClass">4		minutes <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> ( totalSeconds <a href='../Cf4i/Cf4i0.html' target='keyword'>%</a> ( 60 * 60 ) ) <a href='../Cf4i/Cf4i0.html' target='keyword'>/</a> 60;
+<pre id="code4" class="unselectable codeClass">4		<a href='../Cf3i/Cf3i0.html' target='keyword'>int</a> minutes <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> ( totalSeconds <a href='../Cf4i/Cf4i0.html' target='keyword'>%</a> ( 60 * 60 ) ) <a href='../Cf4i/Cf4i0.html' target='keyword'>/</a> 60;
 </pre><pre id="code0" class="unselectable codeClass">		<font color="green">//<b> 초를 계산 </b></font>
 </pre>
-<pre id="code5" class="unselectable codeClass">5		seconds <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> totalSeconds <a href='../Cf4i/Cf4i0.html' target='keyword'>%</a> 60;
+<pre id="code5" class="unselectable codeClass">5		<a href='../Cf3i/Cf3i0.html' target='keyword'>int</a> seconds <a href='../Cf4i/Cf4i0.html' target='keyword'>=</a> totalSeconds <a href='../Cf4i/Cf4i0.html' target='keyword'>%</a> 60;
 </pre><pre id="code0" class="unselectable codeClass">	 
 </pre><pre id="code0" class="unselectable codeClass">		<font color="green">//<b> 시, 분, 초를 출력 </b></font>
 </pre>
